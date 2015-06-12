@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.penpaddlejones.platformer" version="0.9.85" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Mr Jones, the Platformer</name>
+    <description>
+        Drink coffee, don't drown, kill pet hamsters and don't get pwned! Life is simple for Mr Jones.
+    </description>
+    <author email="benpaddlejones@outlook.com" href="http://www.benpaddlejones.com">
+        Ben Jones
+    </author>
+    <plugin name="cordova-plugin-whitelist" version="1" />
+    <icon src="www/images/icon.png" />
+	
+	<preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="4000" />
+	<preference name="SplashMaintainAspectRatio" value="true" />
+	
+	<platform name="android">
+		<splash src="res/drawable-hdpi/screen.png" density="hdpi"/>
+		<splash src="res/drawable-ldpi/screen.png" density="ldpi"/>
+		<splash src="res/drawable-mdpi/screen.png" density="mdpi"/>
+		<splash src="res/drawable-xhdpi/screen.png" density="xhdpi"/>
+		<splash src="res/drawable-xhdpi/screen.png" density="xxhdpi"/>
+		<splash src="res/drawable-xhdpi/screen.png" density="xxxhdpi"/>	
+		<preference name="android-minSdkVersion" value="13"/>
+		<preference name="android-targetSdkVersion" value="22"/>
+		<preference name="SetFullscreen" value="true"/>
+		<preference name="orientation"  value="landscape"/>
+		<preference name="KeepRunning" value="false"/>
+		<preference name="AndroidLaunchMode" value="singleTask"/>
+
+    </platform>
+
+</widget>
